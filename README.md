@@ -1,10 +1,5 @@
-# Using multiple zones
+# Using micro frontend in Next.js
 
-With Next.js you can use multiple apps as a single app using its [multi-zones feature](https://nextjs.org/docs/advanced-features/multi-zones). This is an example showing how to use it.
-
-- All pages should be unique across zones. For example, the `home` app should not have a `pages/blog/index.js` page.
-- The `home` app is the main app and therefore it includes the rewrites that map to the `blog` app in [next.config.js](home/next.config.js)
-- The `blog` app sets [`basePath`](https://nextjs.org/docs/api-reference/next.config.js/basepath) to `/blog` so that generated pages, Next.js assets and public assets are within the `/blog` subfolder.
 
 ## How to use
 
